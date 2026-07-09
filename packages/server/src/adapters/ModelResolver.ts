@@ -90,7 +90,7 @@ const EQUIVALENCES: Record<string, Record<string, string>> = {
 
   // OpenAI → others
   'gpt-5.6-sol': { anthropic: 'claude-opus-4.8', google: 'gemini-3.1-pro' },
-  'gpt-5.6-terra': { anthropic: 'claude-sonnet-5', google: 'gemini-3.1-flash' },
+  'gpt-5.6-terra': { anthropic: 'claude-sonnet-4.6', google: 'gemini-3.1-flash' },
   'gpt-5.6-luna': { anthropic: 'claude-haiku-4.5', google: 'gemini-3.1-flash-lite' },
   'gpt-5.5': { anthropic: 'claude-opus-4.8', google: 'gemini-3.1-pro' },
   'gpt-5.4': { anthropic: 'claude-opus-4.6', google: 'gemini-3.1-pro' },
